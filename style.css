@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(to right, rgb(15, 3, 3) ,rgb(250, 250, 244));
+    text-align: center;
+    text-transform: uppercase;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 80px;
+   
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: rgb(24, 5, 1);
+    text-shadow: 
+      -1px -1px 0 rgb(240, 234, 234),
+      -2px -2px 0 rgb(241, 234, 234),
+      -3px -3px 0 rgb(241, 234, 234),
+      -4px -4px 0 rgb(245, 238, 238),
+      -5px -5px 0 rgb(245, 242, 242),
+      -6px -6px 0 rgb(250, 245, 245),
+      -7px -7px 0 rgb(243, 236, 236),
+      -8px -8px 0 rgb(255, 250, 250),
+      -30px 20px 40px dimgrey
+  }
+  h2{
+    text-align: center;
+  }
+.animation { 
+  color: rgb(190, 13, 13);
+  position: relative;
+  animation: move 5s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
