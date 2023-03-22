@@ -1,2 +1,2 @@
 echo "# mywebsite.io" >> README.md
-Background generator
+Full responsive ecommerce site using HTML , CSS , javascript
