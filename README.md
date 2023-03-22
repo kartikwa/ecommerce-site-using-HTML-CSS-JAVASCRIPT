@@ -1,2 +1,2 @@
 echo "# mywebsite.io" >> README.md
-Full responsive ecommerce site using HTML , CSS , javascript
+Full responsive ecommerce website using HTML , CSS , javascript
